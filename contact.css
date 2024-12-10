@@ -1,0 +1,54 @@
+header{
+    background-color: rgb(202, 31, 31);
+    border-radius: 0%;
+}
+
+body{
+    background-color: rgb(190, 190, 190);
+    border-radius: 0%;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+.contactnavbar ul{
+    list-style-type: none;
+    background-color: rgb(1, 1, 77);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.contactnavbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: inline;
+    text-align: center;
+}
+
+.contactnavbar a:hover{
+    background-color: rgb(36, 36, 85);
+}
+
+.contactnavbar ul{
+    float: center;
+}
+
+main{
+    width: 90vw;
+    margin: 0 auto;
+    padding: 30px 20px;
+    min-height: calc(100vh - 211px - 58px);
+    background-color: rgb(190, 190, 190);
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+}
